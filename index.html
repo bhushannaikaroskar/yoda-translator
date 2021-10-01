@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>Yoda Translator</h1>
-    <textarea id="text-input" ></textarea>
-    <button id="button-translate">Translate to Yodish</button>
-    <div>Yodish Translation:</div>
-    <div id="text-output"></div>
+    <nav>
+        <h1>Yoda Translator</h1>
+    </nav>
+    <div class="container">
+        <textarea id="text-input" class="box-container" placeholder="Put your message here which you would like to convert into Yodish"></textarea>
+        <button id="button-translate" class="link-primary">Translate to Yodish</button>
+        <div><h3>Yodish Translation:</h3></div>
+        <div id="text-output" class="box-container"></div>
+    </div>
+    <footer>
+        <h2>About</h2>
+        <div class="container">Are you a fan of Jedi Master Yoda? Use the translator to convert your text from English to Yodish language.</div>
+    </footer>
     <script src="app.js"></script>
 </body>
 </html>
